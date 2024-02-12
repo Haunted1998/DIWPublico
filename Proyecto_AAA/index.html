@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="src/stylesheet/styles.css" />
+    <style>
+        .red {
+            color: red;
+        }
+
+        .rojo-pequeno {
+            color: red;
+            font-size: 0.6rem;
+        }
+
+        .chiquito {
+            font-size: 0.8rem;
+        }
+
+        .grueso {
+            font-weight: bolder;
+            color: #fff;
+        }
+
+        .grueso-foot {
+            font-weight: bolder;
+            color: #fff;
+        }
+
+        .grueso-rojito {
+            font-weight: bolder;
+            color: red;
+        }
+
+        .gris-tachado {
+            font-size: 1.1rem;
+            color: gray;
+            text-decoration: line-through;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 id="titulo">Pagina de Ekomart</h1>
+    <aside>
+        <div class="block-left">
+            <audio controls autoplay>
+                <source src="src/music/MiMezcla.mp3" type="audio/mpeg">
+            </audio>
+        </div>
+        <div class="block-mid">
+            <div class="mid-item1">
+                <p>
+                    Black Friday. <span class="save">Save up to 50%</span>
+                </p>
+            </div>
+            <div class="separadores">
+                <p> | </p>
+            </div>
+            <div class="mid-item2">
+                <div class="deal-ends">
+                    <p>Deal ends:</p>
+                </div>
+                <div class="bloc">
+                    <p class="dias">03d</p>
+                </div>
+                <div class="bloc">
+                    <p class="horas">16h</p>
+                </div>
+                <div class="bloc">
+                    <p class="minutos">31m</p>
+                </div>
+                <div class="bloc">
+                    <p class="segundos">48s</p>
+                </div>
+            </div>
+            <div class="separadores">
+                <p> | </p>
+            </div>
+            <div class="mid-item3">
+                <a class="learn-more" href="">Learn More About Us</a>
+            </div>
+        </div>
+        <div class="block-right">
+        </div>
+    </aside>
+    <section class="menu">
+        <h2>Menu de Ekomart</h2>
+        <div id="menu-item1">
+
+        </div>
+        <div id="menu-item2">
+            <div class="search-container">
+                <form action="/action_page.php">
+                    <input type="text" placeholder="Search.." name="search">
+                    <button type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+        <div id="menu-item3">
+            <p>Home</p>
+            <p>Shop</p>
+            <p>Page</p>
+            <p>Blog</p>
+            <p>Shortcode</p>
+            <p>On Sale</p>
+            <p>Contact</p>
+        </div>
+        <div id="menu-item4">
+            <h3>+048 800 456 789</h3>
+            <p>Call us Free</p>
+        </div>
+        <div id="menu-item5">
+            <h3>FREE SHIPPING</h3>
+            <p>on orders over $150.0</p>
+        </div>
+        <div id="menu-item6">
+            <div class="usuario"></div>
+            <div class="favoritos"></div>
+            <div class="cesta"></div>
+        </div>
+    </section>
+    <section class="visor-imagenes">
+        <h2>Visor de imagenes</h2>
+        <div id="anuncio1">
+            <div class="add1"></div>
+            <div class="add2"></div>
+        </div>
+    </section>
+    <section class="feature-products">
+        <h2 class="feature-title">FEATURE PRODUCTS</h2>
+        <p class="feature-subtitle">Visit our shop to see amazing products</p>
+        <section class="products">
+            <article class="product1">
+                <div class="foto1"></div>
+                <p class="product-etiqueta">Running</p>
+                <h3 class="product-nombre">Air VaporMax Flyknit 3</h3>
+                <p class="precio"><span class="grueso-rojito">$40.00</span><span
+                        style="text-decoration:line-through;">$350.99</span></p>
+                <input class="addtocart" type="button" value="Add to Cart">
+            </article>
+            <article class="product2">
+                <div class="foto2"></div>
+                <p class="product-etiqueta">Training & Gym</p>
+                <h3 class="product-nombre">Drop-Type</h3>
+                <p class="precio-duped"><span class="grueso-rojito">$75.99</span></p>
+                <input class="addtocart" type="button" value="Add to Cart">
+            </article>
+            <article class="product3">
+                <div class="foto3"></div>
+                <p class="product-etiqueta">Athletics</p>
+                <h3 class="product-nombre">Epic React Flyknit 2</h3>
+                <p class="precio"><span class="grueso-rojito">$50.00</span><span
+                        style="text-decoration:line-through;">$350.00</span></p>
+                <input class="addtocart" type="button" value="Add to Cart">
+            </article>
+            <article class="product4">
+                <div class="foto4"></div>
+                <p class="product-etiqueta">Walking</p>
+                <h3 class="product-nombre">Free RN Flyknit 3.0</h3>
+                <p class="precio"><span class="grueso-rojito">$40.00 - $75.00</span></p>
+                <input class="addtocart" type="button" value="Select Options">
+            </article>
+            <article class="product5">
+                <div class="foto5"></div>
+                <p class="product-etiqueta">Lifestyle</p>
+                <h3 class="product-nombre">Air Force 1`07 Premium</h3>
+                <p class="precio"><span class="grueso-rojito">$40.00</span></p>
+                <input class="addtocart" type="button" value="Add to Cart">
+            </article>
+            <article class="product6">
+                <div class="foto6"></div>
+                <p class="product-etiqueta">Walking</p>
+                <h3 class="product-nombre">Epic React Flyknit 2</h3>
+                <p class="precio"><span class="grueso-rojito">$95.00</span></p>
+                <input class="addtocart" type="button" value="Add to Cart">
+            </article>
+            <article class="product7">
+                <div class="foto7"></div>
+                <p class="product-etiqueta">Athletics</p>
+                <h3 class="product-nombre">Free RN Flyknit 3.0</h3>
+                <p class="precio"><span class="grueso-rojito">$40.00</span><span
+                        style="text-decoration:line-through;">$350.99</span></p>
+                <input class="addtocart" type="button" value="Add to Cart">
+            </article>
+            <article class="product8">
+                <div class="foto8"></div>
+                <p class="product-etiqueta">Training & Gym</p>
+                <h3 class="product-nombre">Air VaporMax Flyknit 3</h3>
+                <p class="precio"><span class="grueso-rojito">$40.00 - $75.00</span></p>
+                <input class="addtocart" type="button" value="Add to Cart">
+            </article>
+            <article class="product9">
+                <div class="foto9"></div>
+                <p class="product-etiqueta">Lifestyle</p>
+                <h3 class="product-nombre">Drop-Type Premium</h3>
+                <p class="precio"><span class="grueso-rojito">$40.00</span></p>
+                <input class="addtocart" type="button" value="Add to Cart">
+            </article>
+            <article class="product10">
+                <div class="foto10"></div>
+                <p class="product-etiqueta">Running</p>
+                <h3 class="product-nombre">Air VaporMax Flyknit 3</h3>
+                <p class="precio"><span class="grueso-rojito">$40.00</span><span class="gris-tachado">$75.00</span></p>
+                <input class="addtocart" type="button" value="Add to Cart">
+            </article>
+        </section>
+    </section>
+    <section class="best-selling">
+        <div class="anuncio2">
+            <h2>BEST SELLING</h2>
+            <div id="panel1"></div>
+            <div id="panel2"></div>
+            <div id="panel3"></div>
+        </div>
+    </section>
+    <section class="latest-news">
+        <h2 class="latest-title">LATEST NEWS</h2>
+        <p class="latest-subtitle">Read our blog</p>
+        <section class="blogs">
+            <h3>Blogs</h3>
+            <article class="blog1">
+                <h4>Blog1</h4>
+                <div class="cuerpo-blog1">
+                    <p class="etiqueta1">Performance</p>
+                    <p class="cuerpo1">Introducing the Nike Victory swim
+                        Collection
+                    </p>
+                </div>
+                <div class="foot-blog1">
+                    <p class="fecha1">
+                        28 Jun, 2019
+                    </p>
+                    <p class="editor1">
+                        by <span class="grueso-foot">Administrator</span>
+                    </p>
+                </div>
+            </article>
+            <article class="blog2">
+                <h4>Blog2</h4>
+                <div class="cuerpo-blog2">
+                    <p class="etiqueta2">Featured Apparel</p>
+                    <p class="cuerpo2">The KOBE V Gets the Protro Treatment
+                    </p>
+
+                </div>
+                <div class="foot-blog2">
+                    <p class="fecha2">
+                        28 Jun, 2019
+                    </p>
+                    <p class="editor2">
+                        by <span class="grueso-foot">Administrator</span>
+                    </p>
+                </div>
+            </article>
+            <article class="blog3">
+                <h4>Blog3</h4>
+                <div class="cuerpo-blog3">
+                    <p class="etiqueta3">Featured Apparel</p>
+                    <p class="cuerpo3">The KOBE V Gets the Protro Treatment
+                    </p>
+
+                </div>
+                <div class="foot-blog3">
+                    <p class="fecha3">
+                        28 Jun, 2019
+                    </p>
+                    <p class="editor3">
+                        by <span class="grueso-foot">Administrator</span>
+                    </p>
+                </div>
+            </article>
+        </section>
+    </section>
+    <section class="videomp4">
+        <video width="400" controls>
+            <source src="src/videos/Video.mp4" type="video/mp4">
+        </video>
+    </section>
+    <section class="videoexterno">
+        <iframe width="420" height="345" title="video de youtube" src="https://youtu.be/X2OxB2SBH5Q?feature=shared">
+        </iframe>
+    </section>
+    <section class="feature-comment">
+        <h2 class="comment-title">Feature comment</h2>
+        <div id="comillas"></div>
+        <p class="commnet-body">Great for swimming and specially if there are rocks and uneven terrain.
+            They stay snug on your feet while swimming and dry quickly. I
+            wear them on my offshore fishing boat. Very comfortable.
+        </p>
+        <p class="comment-autor">STEPHEN TINDLE</p>
+    </section>
+    <section class="patners">
+        <h2 class="tittle-patners">PATNERS</h2>
+        <article class="patner1"></article>
+        <article class="patner2"></article>
+        <article class="patner3"></article>
+        <article class="patner4"></article>
+        <article class="patner5"></article>
+        <a class="joininsta" href=""></a>
+    </section>
+    <footer>
+        <h2>Pie de pagina</h2>
+        <section class="footer-top">
+            <h3>Servicio y calidad</h3> 
+            <article class="delivery">
+                <h4>
+                    <span class="red">
+                        FREE
+                    </span>
+                    DELIVERY
+                </h4>
+                <p>When ordering from $500.</p>
+            </article>
+            <article class="money">
+                <h4>
+                    <span class="red">
+                        100% REFUND
+                    </span>
+                    OF MONEY
+                </h4>
+                <p>14-days of complaint.</p>
+            </article>
+            <article class="quality">
+                <h4>
+                    <span class="red">
+                        QUALITY
+                    </span>
+                    INSPECTIONS
+                </h4>
+                <p>Over 10,000 products.</p>
+            </article>
+        </section>
+        <section class="footer-middle">
+            <h3>Atención al cliente e información de la tienda</h3>
+            <article class="contact-us">
+                <h4>CONTACT US</h4>
+                <p class="questions">
+                    If you have any questions, please
+                    contact us at support@example.com
+                </p>
+                <p class="numero-tel">
+                    <span class="chiquito blanco">
+                        +048
+                    </span>
+                    800 456 789
+                </p>
+            </article>
+            <article class="location">
+                <h4>
+                    STORE LOCATION
+                </h4>
+                <p class="direccion">
+                    Box 565, Charlestown, Nevis, West Indies, Caribbean
+                </p>
+                <p class="horario">
+                    Monday-Friday:<span class="grueso">
+                        8am-4pm
+                    </span>
+                    Saturday:<span class="grueso">
+                        9am-5pm
+                    </span>
+                </p>
+            </article>
+            <article class="categories">
+                <h4>CATEGORIES</h4>
+                <a class="men" href="">For Men</a>
+                <a class="woman" href="">For Woman</a>
+                <a class="accessories" href="">Accessories</a>
+                <a class="collections" href="">Collections</a>
+                <a class="other" href="">Other</a>
+            </article>
+            <article class="newletter">
+                <h4>NEWSLETTER</h4>
+                <p>Subscribe to the weekly newsletter for all the latest updates</p>
+                <div>
+                    <form action="/action_page.php">
+                        <input type="email" placeholder="Your Email..." name="search">
+                        <button type="submit">Search</button>
+                    </form>
+                </div>
+            </article>
+        </section>
+        <section class="footer-bottom">
+            <h3>Redes socieales y tarjetas aceptadas</h3>
+            <article class="copyright">
+                <h4>
+                    copyright 2020 <span class="rojo-pequeno">ekommart</span>.
+                    All Rights Reserved.
+                </h4>
+            </article>
+            <article class="social-media">
+                <h4>SOCIAL MEDIA</h4>
+                <div class="facebook"></div>
+                <div class="twitter"></div>
+                <div class="instagram"></div>
+                <div class="linkedin"></div>
+            </article>
+            <article class="cards">
+                <h4>TARJETAS ADMITIDAS</h4>
+                <div class="visa"></div>
+                <div class="mastercard"></div>
+                <div class="americanexpress"></div>
+                <div class="paypal"></div>
+                <div class="discover"></div>
+                <div class="cod"></div>
+            </article>
+            <svg height="130" width="500">
+                <defs>
+                    <linearGradient id="grad1" x1="0%" y1="0%" x2="0%" y2="150%">
+                        <stop offset="0%" style="stop-color:rgb(0, 0, 0);stop-opacity:1" />
+                        <stop offset="100%" style="stop-color:rgb(255,0,0);stop-opacity:1" />
+                    </linearGradient>
+                </defs>
+                <ellipse cx="100" cy="70" rx="85" ry="55" fill="url(#grad1)" />
+                <text fill="#ffffff" font-size="56" font-family="Verdana" x="70" y="86">JA</text>
+                Lo sentimos, su navegador no es compatible con SVG
+            </svg>
+        </section>
+    </footer>
+</body>
+
+</html>
