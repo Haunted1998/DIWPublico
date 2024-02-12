@@ -8,11 +8,11 @@
     <link rel="stylesheet" href="src/stylesheet/styles.css" />
     <style>
         .red {
-            color: red;
+            color: #8A0000;
         }
 
         .rojo-pequeno {
-            color: red;
+            color: #ffa5a5;
             font-size: 0.6rem;
         }
 
@@ -32,19 +32,23 @@
 
         .grueso-rojito {
             font-weight: bolder;
-            color: red;
+            color: #8A0000;
         }
 
         .gris-tachado {
             font-size: 1.1rem;
-            color: gray;
+            color: #3B3B3B;
             text-decoration: line-through;
+        }
+
+        .red-alternativo {
+            color: #ffcbcb;
         }
     </style>
 </head>
 
 <body>
-    <h1 id="titulo">Pagina de Ekomart</h1>
+    <h1 class="titulo">Pagina de Ekomart</h1>
     <aside>
         <div class="block-left">
             <audio controls autoplay>
@@ -134,7 +138,7 @@
         <h2 class="feature-title">FEATURE PRODUCTS</h2>
         <p class="feature-subtitle">Visit our shop to see amazing products</p>
         <section class="products">
-            <article class="product1">
+            <article class="product1" aria-label="Air VaporMax Flyknit 3a">
                 <div class="foto1"></div>
                 <p class="product-etiqueta">Running</p>
                 <h3 class="product-nombre">Air VaporMax Flyknit 3</h3>
@@ -142,14 +146,14 @@
                         style="text-decoration:line-through;">$350.99</span></p>
                 <input class="addtocart" type="button" value="Add to Cart">
             </article>
-            <article class="product2">
+            <article class="product2" aria-label="Drop-Type">
                 <div class="foto2"></div>
                 <p class="product-etiqueta">Training & Gym</p>
                 <h3 class="product-nombre">Drop-Type</h3>
                 <p class="precio-duped"><span class="grueso-rojito">$75.99</span></p>
                 <input class="addtocart" type="button" value="Add to Cart">
             </article>
-            <article class="product3">
+            <article class="product3" aria-label="Epic React Flyknit 2a">
                 <div class="foto3"></div>
                 <p class="product-etiqueta">Athletics</p>
                 <h3 class="product-nombre">Epic React Flyknit 2</h3>
@@ -157,28 +161,28 @@
                         style="text-decoration:line-through;">$350.00</span></p>
                 <input class="addtocart" type="button" value="Add to Cart">
             </article>
-            <article class="product4">
+            <article class="product4" aria-label="Free RN Flyknit 3.0a">
                 <div class="foto4"></div>
                 <p class="product-etiqueta">Walking</p>
                 <h3 class="product-nombre">Free RN Flyknit 3.0</h3>
                 <p class="precio"><span class="grueso-rojito">$40.00 - $75.00</span></p>
                 <input class="addtocart" type="button" value="Select Options">
             </article>
-            <article class="product5">
+            <article class="product5" aria-label="Air Force 1`07 Premium">
                 <div class="foto5"></div>
                 <p class="product-etiqueta">Lifestyle</p>
                 <h3 class="product-nombre">Air Force 1`07 Premium</h3>
                 <p class="precio"><span class="grueso-rojito">$40.00</span></p>
                 <input class="addtocart" type="button" value="Add to Cart">
             </article>
-            <article class="product6">
+            <article class="product6" aria-label="Epic React Flyknit 2b">
                 <div class="foto6"></div>
                 <p class="product-etiqueta">Walking</p>
                 <h3 class="product-nombre">Epic React Flyknit 2</h3>
                 <p class="precio"><span class="grueso-rojito">$95.00</span></p>
                 <input class="addtocart" type="button" value="Add to Cart">
             </article>
-            <article class="product7">
+            <article class="product7" aria-label="Free RN Flyknit 3.0b">
                 <div class="foto7"></div>
                 <p class="product-etiqueta">Athletics</p>
                 <h3 class="product-nombre">Free RN Flyknit 3.0</h3>
@@ -186,21 +190,21 @@
                         style="text-decoration:line-through;">$350.99</span></p>
                 <input class="addtocart" type="button" value="Add to Cart">
             </article>
-            <article class="product8">
+            <article class="product8" aria-label="Air VaporMax Flyknit 3b">
                 <div class="foto8"></div>
                 <p class="product-etiqueta">Training & Gym</p>
                 <h3 class="product-nombre">Air VaporMax Flyknit 3</h3>
                 <p class="precio"><span class="grueso-rojito">$40.00 - $75.00</span></p>
                 <input class="addtocart" type="button" value="Add to Cart">
             </article>
-            <article class="product9">
+            <article class="product9" aria-label="Drop-Type Premium">
                 <div class="foto9"></div>
                 <p class="product-etiqueta">Lifestyle</p>
                 <h3 class="product-nombre">Drop-Type Premium</h3>
                 <p class="precio"><span class="grueso-rojito">$40.00</span></p>
                 <input class="addtocart" type="button" value="Add to Cart">
             </article>
-            <article class="product10">
+            <article class="product10" aria-label="Air VaporMax Flyknit 3c">
                 <div class="foto10"></div>
                 <p class="product-etiqueta">Running</p>
                 <h3 class="product-nombre">Air VaporMax Flyknit 3</h3>
@@ -222,7 +226,7 @@
         <p class="latest-subtitle">Read our blog</p>
         <section class="blogs">
             <h3>Blogs</h3>
-            <article class="blog1">
+            <article class="blog1" aria-label="Blog1">
                 <h4>Blog1</h4>
                 <div class="cuerpo-blog1">
                     <p class="etiqueta1">Performance</p>
@@ -239,7 +243,7 @@
                     </p>
                 </div>
             </article>
-            <article class="blog2">
+            <article class="blog2" aria-label="Blog2">
                 <h4>Blog2</h4>
                 <div class="cuerpo-blog2">
                     <p class="etiqueta2">Featured Apparel</p>
@@ -256,7 +260,7 @@
                     </p>
                 </div>
             </article>
-            <article class="blog3">
+            <article class="blog3" aria-label="Blog3">
                 <h4>Blog3</h4>
                 <div class="cuerpo-blog3">
                     <p class="etiqueta3">Featured Apparel</p>
@@ -295,48 +299,47 @@
     </section>
     <section class="patners">
         <h2 class="tittle-patners">PATNERS</h2>
-        <article class="patner1"></article>
-        <article class="patner2"></article>
-        <article class="patner3"></article>
-        <article class="patner4"></article>
-        <article class="patner5"></article>
+        <article class="patner1" aria-label="imagen1"></article>
+        <article class="patner2" aria-label="imagen2"></article>
+        <article class="patner3" aria-label="imagen3"></article>
+        <article class="patner4" aria-label="imagen4"></article>
+        <article class="patner5" aria-label="imagen5"></article>
         <a class="joininsta" href=""></a>
     </section>
     <footer>
-        <h2>Pie de pagina</h2>
         <section class="footer-top">
-            <h3>Servicio y calidad</h3> 
-            <article class="delivery">
-                <h4>
-                    <span class="red">
+            <h2>Servicio y calidad</h2> 
+            <article class="delivery" aria-label="FREE DELIVERY">
+                <h3>
+                    <span class="red-alternativo">
                         FREE
                     </span>
                     DELIVERY
-                </h4>
+                </h3>
                 <p>When ordering from $500.</p>
             </article>
-            <article class="money">
-                <h4>
-                    <span class="red">
+            <article class="money" aria-label="100% REFUND OF MONEY">
+                <h3>
+                    <span class="red-alternativo">
                         100% REFUND
                     </span>
                     OF MONEY
-                </h4>
+                </h3>
                 <p>14-days of complaint.</p>
             </article>
-            <article class="quality">
-                <h4>
-                    <span class="red">
+            <article class="quality" aria-label="QUALITY INSPECTIONS">
+                <h3>
+                    <span class="red-alternativo">
                         QUALITY
                     </span>
                     INSPECTIONS
-                </h4>
+                </h3>
                 <p>Over 10,000 products.</p>
             </article>
         </section>
         <section class="footer-middle">
             <h3>Atención al cliente e información de la tienda</h3>
-            <article class="contact-us">
+            <article class="contact-us" aria-label="CONTANT US">
                 <h4>CONTACT US</h4>
                 <p class="questions">
                     If you have any questions, please
@@ -349,7 +352,7 @@
                     800 456 789
                 </p>
             </article>
-            <article class="location">
+            <article class="location" aria-label="STORE LOCATION">
                 <h4>
                     STORE LOCATION
                 </h4>
@@ -365,7 +368,7 @@
                     </span>
                 </p>
             </article>
-            <article class="categories">
+            <article class="categories" aria-label="CATEGORIES">
                 <h4>CATEGORIES</h4>
                 <a class="men" href="">For Men</a>
                 <a class="woman" href="">For Woman</a>
@@ -373,7 +376,7 @@
                 <a class="collections" href="">Collections</a>
                 <a class="other" href="">Other</a>
             </article>
-            <article class="newletter">
+            <article class="newletter" aria-label="NEWSLETTER">
                 <h4>NEWSLETTER</h4>
                 <p>Subscribe to the weekly newsletter for all the latest updates</p>
                 <div>
@@ -386,20 +389,20 @@
         </section>
         <section class="footer-bottom">
             <h3>Redes socieales y tarjetas aceptadas</h3>
-            <article class="copyright">
+            <article class="copyright" aria-label="Copyright">
                 <h4>
-                    copyright 2020 <span class="rojo-pequeno">ekommart</span>.
+                    Copyright 2020 <span class="rojo-pequeno">ekommart</span>.
                     All Rights Reserved.
                 </h4>
             </article>
-            <article class="social-media">
+            <article class="social-media" aria-label="SOCIAL MEDIA">
                 <h4>SOCIAL MEDIA</h4>
                 <div class="facebook"></div>
                 <div class="twitter"></div>
                 <div class="instagram"></div>
                 <div class="linkedin"></div>
             </article>
-            <article class="cards">
+            <article class="cards" aria-label="TARJETAS ADMITIDAS">
                 <h4>TARJETAS ADMITIDAS</h4>
                 <div class="visa"></div>
                 <div class="mastercard"></div>
@@ -411,13 +414,12 @@
             <svg height="130" width="500">
                 <defs>
                     <linearGradient id="grad1" x1="0%" y1="0%" x2="0%" y2="150%">
-                        <stop offset="0%" style="stop-color:rgb(0, 0, 0);stop-opacity:1" />
+                        <stop offset="0%" style="stop-color:rgb(255, 255, 255);stop-opacity:1" />
                         <stop offset="100%" style="stop-color:rgb(255,0,0);stop-opacity:1" />
                     </linearGradient>
                 </defs>
                 <ellipse cx="100" cy="70" rx="85" ry="55" fill="url(#grad1)" />
                 <text fill="#ffffff" font-size="56" font-family="Verdana" x="70" y="86">JA</text>
-                Lo sentimos, su navegador no es compatible con SVG
             </svg>
         </section>
     </footer>
