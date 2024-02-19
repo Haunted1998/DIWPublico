@@ -265,7 +265,7 @@ aside {
 }
 
  #menu-item1 {
-    background-image: url("../img/Ejercicio2-1.png");
+    background-image: url("../img/Ejercicio2-1.jpeg");
     background-size: 100% 100%;
     background-repeat: no-repeat;
     grid-row: 1 / span 2;
@@ -436,7 +436,7 @@ aside {
  }
 
  #menu-item6 .favoritos {
-    background-image: url("../img/heart.png");
+    background-image: url("../img/heart.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     width: 25px;
@@ -445,7 +445,7 @@ aside {
  }
 
  #menu-item6 .cesta {
-    background-image: url("../img/basket.png");
+    background-image: url("../img/basket.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     width: 25px;
@@ -454,7 +454,7 @@ aside {
  }
 
  .visor-imagenes {
-    background-image: url("../img/zapatillas.png");
+    background-image: url("../img/zapatillas.jpeg");
     background-color: black;
     background-repeat: no-repeat;
     background-size: 100% 60%;
@@ -905,7 +905,7 @@ aside {
 }
 
 #comillas {
-   background-image: url("../img/comilla.png");
+   background-image: url("../img/comilla.jpeg");
    background-size: cover;
    background-repeat: no-repeat;
    height: 50px;
@@ -968,7 +968,7 @@ aside {
 }
 
 .joininsta {
-   background-image:url("../img/instagram-social.png");
+   background-image:url("../img/instagram-social.jpeg");
    background-size: 100% 100%;
    background-repeat: no-repeat;
    height: 150px;
@@ -1001,7 +1001,7 @@ footer {
 
 .delivery::before{
    content: "";
-   background-image:url("../img/furgon.png");
+   background-image:url("../img/furgon.jpeg");
    background-size: 100% 100%;
    background-repeat: no-repeat;
    height: 65px;
@@ -1019,7 +1019,7 @@ footer {
 
 .money::before{
    content: "";
-   background-image:url("../img/furgon.png");
+   background-image:url("../img/furgon.jpeg");
    background-size: 100% 100%;
    background-repeat: no-repeat;
    height: 65px;
@@ -1036,7 +1036,7 @@ footer {
 
 .quality::before {
    content: "";
-   background-image:url("../img/furgon.png");
+   background-image:url("../img/furgon.jpeg");
    background-size: 100% 100%;
    background-repeat: no-repeat;
    height: 65px;
@@ -1082,7 +1082,7 @@ footer {
 
 
 .numero-tel::before {
-   background-image: url('../img/contacto.png');
+   background-image: url('../img/contacto.jpeg');
    background-repeat: no-repeat;
    background-size: 10px 20px;
    display: inline-block;
@@ -1219,7 +1219,7 @@ height: 30px;
 }
 
 .facebook {
-   background-image: url('../img/facebook.png');
+   background-image: url('../img/facebook.jpeg');
    background-repeat: no-repeat;
    background-size: cover;
    height: 20px;
@@ -1228,7 +1228,7 @@ height: 30px;
 }
 
 .twitter {
-   background-image: url('../img/twitter.png');
+   background-image: url('../img/twitter.jpeg');
    background-repeat: no-repeat;
    background-size: cover;
    height: 20px;
@@ -1237,7 +1237,7 @@ height: 30px;
 }
 
 .instagram {
-   background-image: url('../img/instagram.png');
+   background-image: url('../img/instagram.jpeg');
    background-repeat: no-repeat;
    background-size: cover;
    height: 20px;
@@ -1246,7 +1246,7 @@ height: 30px;
 }
 
 .linkedin {
-   background-image: url('../img/linkedin.png');
+   background-image: url('../img/linkedin.jpeg');
    background-repeat: no-repeat;
    background-size: cover;
    height: 20px;
@@ -1268,7 +1268,7 @@ height: 30px;
 }
 
 .visa {
-   background-image: url('../img/visa.png');
+   background-image: url('../img/visa.jpeg');
    background-repeat: no-repeat;
    background-size: cover;
    height: 25px;
@@ -1277,7 +1277,7 @@ height: 30px;
 }
 
 .mastercard {
-   background-image: url('../img/mastercard.png');
+   background-image: url('../img/mastercard.jpeg');
    background-repeat: no-repeat;
    background-size: cover;
    height: 25px;
@@ -1286,7 +1286,7 @@ height: 30px;
 }
 
 .americanexpress {
-   background-image: url('../img/americanexpr.png');
+   background-image: url('../img/americanexpr.jpeg');
    background-repeat: no-repeat;
    background-size: cover;
    height: 25px;
@@ -1295,7 +1295,7 @@ height: 30px;
 }
 
 .paypal {
-   background-image: url('../img/paypal.png');
+   background-image: url('../img/paypal.jpeg');
    background-repeat: no-repeat;
    background-size: cover;
    height: 25px;
@@ -1304,7 +1304,7 @@ height: 30px;
 }
 
 .discover {
-   background-image: url('../img/discover.png');
+   background-image: url('../img/discover.jpeg');
    background-repeat: no-repeat;
    background-size: cover;
    height: 25px;
@@ -1313,7 +1313,7 @@ height: 30px;
 }
 
 .cod {
-   background-image: url('../img/cod.png');
+   background-image: url('../img/cod.jpeg');
    background-repeat: no-repeat;
    background-size: cover;
    height: 25px;
