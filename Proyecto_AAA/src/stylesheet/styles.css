@@ -427,7 +427,7 @@ aside {
 
 
  #menu-item6 .usuario {
-    background-image: url("../img/account.png");
+    background-image: url("../img/account.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     width: 25px;
@@ -479,7 +479,7 @@ aside {
  }
 
  #anuncio1 .add1 {
-    background-image: url("../img/add1.jpg");
+    background-image: url("../img/add1.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     grid-row: 1;
@@ -487,7 +487,7 @@ aside {
  }
 
  #anuncio1 .add2 {
-    background-image: url("../img/add2.jpg");
+    background-image: url("../img/add2.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     grid-row: 1;
